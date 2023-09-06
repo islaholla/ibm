@@ -3,14 +3,14 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, m
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Beranda",
   },
   {
     id: "about",
-    title: "About",
+    title: "Tentang Kami",
   },
   {
-    id: "product",
+    id: "Produk",
     title: "Product",
   },
   {
