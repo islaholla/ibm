@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, master, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -6,16 +6,16 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "about",
+    title: "About",
   },
   {
     id: "product",
     title: "Product",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "kontak",
+    title: "kontak",
   },
 ];
 
@@ -23,23 +23,16 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "IBM Power",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "IBM Power mampu menangani beban komputasi dari yang paling kompleks sampai dengan yang mudah. Solusi ini juga dilengkapi dengan arsitektur yang fleksibel, sehingga perusahaan dapat dengan mudah menyesuaikan sistem sesuai dengan kebutuhan workload mereka, sehingga mampu mengatasi pertumbuhan dan perubahan bisnis yang cepat.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "LinuxONE ",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
-  },
-  {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "platform mainframe modern yang dibangun untuk mendukung mission critical workloads dengan skalabilitas dan tingkat keamanan yang tinggi. Dengan adopsi keduanya, perusahaan dapat memastikan operasi berjalan mulus dan berkinerja tinggi untuk aplikasi dan data mereka yang paling penting.      ",
   },
 ];
 
@@ -180,18 +173,18 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: master,
   },
   {
-    id: "client-2",
-    logo: binance,
+    id: "client-1",
+    logo: master,
   },
   {
-    id: "client-3",
-    logo: coinbase,
+    id: "client-1",
+    logo: master,
   },
   {
-    id: "client-4",
-    logo: dropbox,
-  },
+    id: "client-1",
+    logo: master,
+  }
 ];

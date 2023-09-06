@@ -1,20 +1,15 @@
 import { card } from "../assets";
 import styles, { layout } from "../style";
-import Button from "./Button";
 
 const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+        Gold Partner IBM<br className="sm:block hidden" /> 
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+      <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
+    Mastersystem Infotama sebagai Gold Partner IBM telah dipercaya atas kemampuan dan keahlian dalam mengimplementasikan teknologi IBM yang canggih. Kemitraan dengan IBM telah memberikan Mastersystem akses ke berbagai produk dan teknologi inovatif, termasuk solusi hardware seperti IBM Power dan LinuxONE, penyimpanan (storage) canggih, serta software seperti Instana dan Turbonomics, API Management, Data & AI, dan Planning Analytics. 
       </p>
-
-      <Button styles={`mt-10`} />
     </div>
 
     <div className={layout.sectionImg}>

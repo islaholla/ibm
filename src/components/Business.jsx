@@ -19,19 +19,22 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Business = () =>  (
-  <section id="features" className={layout.section}>
+  <section id="product" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+      Produk Terbaru IBM
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+      Solusi yang kuat dan dapat diandalkan untuk menangani tantangan pada  mission critical workloads saat ini. Dengan kehandalan, performa tinggi, dan keamanan lapis ganda, platform ini memberikan fondasi yang solid untuk bisnis dalam menghadapi tantangan transformasi digital. 
       </p>
-
-      <Button styles={`mt-10`} />
+     <div className="flex">
+        <a href="https://www.ibm.com/id-id/linuxone" target="_blank">
+          <Button styles={`mt-10 bg-blue-gradient outline-none`} isi={`LinuxONE`}/>
+        </a>
+        <a href="https://www.ibm.com/id-id/power" className="ml-5" target="_blank">
+          <Button styles={`mt-10 outline outline-cyan-300 text-gradient`} isi={`IBM Power`}/>
+        </a>
+      </div>
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
