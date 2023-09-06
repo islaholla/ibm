@@ -12,7 +12,7 @@ const CTA = () => (
 
       </p>
        <div className={`  sm:mt-8 mt-10`}>
-       <a href="https://www.ibm.com/id-id/linuxone" target="_blank">
+       <a href="https://www.mastersystem.co.id/" target="_blank">
           <Button styles={` bg-blue-gradient outline-none`} isi={`Kunjungi`}/>
         </a>
     </div>
