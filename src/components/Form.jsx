@@ -19,6 +19,11 @@ const Form = () => {
   
     return (
         <section className={layout.section} id="kontak">
+ 
+        
+        <div className={layout.sectionImg}>
+          <img src={kontak} alt="billing" className="w-[80%] " />
+        </div>
         <div className={layout.sectionInfo}>
           <h2 className={styles.heading2}>
             Form<br className="sm:block hidden" /> 
@@ -92,10 +97,6 @@ const Form = () => {
             </form>
         
             </div>
-        </div>
-        
-        <div className={layout.sectionImg}>
-          <img src={kontak} alt="billing" className="w-[80%] " />
         </div>
         </section> 
     );
