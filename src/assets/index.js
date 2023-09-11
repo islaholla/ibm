@@ -1,4 +1,4 @@
-import airbnb from "./airbnb.png";
+import airbnb from "./ibm-web.png";
 import master from "./logo-master.png";
 import bill from "./bill.png";
 import binance from "./binance.png";

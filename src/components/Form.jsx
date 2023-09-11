@@ -26,10 +26,10 @@ const Form = () => {
         </div>
         <div className={layout.sectionInfo}>
           <h2 className={styles.heading2}>
-            Form<br className="sm:block hidden" /> 
+            Konsultasi<br className="sm:block hidden" /> 
           </h2>
           <p className={`${styles.paragraph} max-w-[660px] mt-5`}>
-            Lihat informasi yang lebih details 
+          Jangan ragu untuk berdiskusi dengan pakar kami guna mempercepat perubahan bisnis Anda
           </p>
           <div className="w-full max-w-lg">
             <form className=" shadow-md rounded px-8 pt-6 pb-8 mb-4 mt-5" ref={form} >
