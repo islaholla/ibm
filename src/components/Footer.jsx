@@ -7,9 +7,9 @@ const Footer = () => (
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-20">
         <div className="flex items-center">
-        <img src={master} alt="hoobank" className="w-[230px] object-contain " />
+        <img src={master} alt="hoobank" className="md:w-[230px] w-[150px] object-contain " />
         <div className="border h-[100px]"></div>
-        <img src={logo} alt="hoobank" className=" ml-3 w-[224px]  object-contain" />
+        <img src={logo} alt="hoobank" className=" ml-3 md:w-[224px] w-[150px] object-contain" />
         </div>
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
         Mastersystem Infotama strives to design and deliver the right solution to your company.
