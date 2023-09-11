@@ -83,66 +83,62 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Head Office Jakarta",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Sudirman 7.8, Tower 1, 25th Floor ",
+        link: "",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Jl. Jend. Sudirman Kav. 7-8,",
+        link: "",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
+        name: "Jakarta 10220, Indonesia",
+        link: "",
+      }
     ],
   },
   {
-    title: "Community",
+    title: "Branch Office Surabaya",
     links: [
       {
-        name: "Help Center",
+        name: "Darmo Galeria Center,",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Jl. Mayjen Sungkono No.75, Gn. Sari,",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Kec. Dukuhpakis, Kota SBY, ",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
+        name: "Jawa Timur 60224.",
+        link: "https://www.hoobank.com/suggestions/",
+      }
     ],
   },
   {
-    title: "Partner",
+    title: "",
     links: [
       {
-        name: "Our Partner",
+        name: "Beranda",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Tentang",
         link: "https://www.hoobank.com/become-a-partner/",
       },
+      {
+        name: "Product ",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "Kontak",
+        link: "https://www.hoobank.com/become-a-partner/",
+      }
     ],
   },
 ];

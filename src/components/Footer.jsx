@@ -1,18 +1,19 @@
 import styles from "../style";
-import { logo } from "../assets";
+import { logo, master } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-      <div className="flex-[1] flex flex-col justify-start mr-10">
-        <img
-          src={logo}
-          alt="hoobank"
-          className="w-[266px] h-[72.14px] object-contain"
-        />
+      <div className="flex-[1] flex flex-col justify-start mr-20">
+        <div className="flex items-center">
+        <img src={logo} alt="hoobank" className="w-[230px] object-contain " />
+        <div className="border h-[100px]"></div>
+        <img src={master} alt="hoobank" className=" ml-3 w-[224px]  object-contain" />
+        </div>
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          A new way to make the payments easy, reliable and secure.
+        Mastersystem Infotama strives to design and deliver the right solution to your company.
+
         </p>
       </div>
 
