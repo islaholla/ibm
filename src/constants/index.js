@@ -121,23 +121,24 @@ export const footerLinks = [
     ],
   },
   {
+    
     title: "",
     links: [
       {
         name: "Beranda",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "#home",
       },
       {
         name: "Tentang",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "about",
       },
       {
         name: "Product ",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "product",
       },
       {
         name: "Kontak",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "kontak",
       }
     ],
   },
