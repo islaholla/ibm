@@ -8,7 +8,7 @@ const Hero = () => {
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row justify-between items-center w-full">
           <h3 className="flex-1 font-poppins font-semibold md:text-[50.8px]  text-[32px] text-white md:leading-[60px] leading-[35px]">
-          IT leaders need to transform their businesses with the latest innovations
+          Mastersystem dan IBM optimalkan critical workload 
           </h3>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />

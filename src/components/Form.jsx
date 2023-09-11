@@ -90,7 +90,8 @@ const Form = () => {
                    </div>
                 </div>
                 <div className="flex items-center justify-between">
-                <button onClick={sendEmail} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                
+                <button onClick={sendEmail} className="py-2 px-6 font-poppins font-medium text-[18px] text-primary rounded-[10px]  bg-blue-gradient outline-none" type="button">
                   Submit
                 </button>
                 </div>
