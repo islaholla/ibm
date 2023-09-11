@@ -24,7 +24,7 @@ const Business = () =>  (
       <h2 className={styles.heading2}>
       Produk Terbaru IBM
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-start sm:text-justify`}>
       Solusi yang kuat dan dapat diandalkan untuk menangani tantangan pada  mission critical workloads saat ini. Dengan kehandalan, performa tinggi, dan keamanan lapis ganda, platform ini memberikan fondasi yang solid untuk bisnis dalam menghadapi tantangan transformasi digital. 
       </p>
      <div className="flex">
@@ -37,7 +37,7 @@ const Business = () =>  (
       </div>
     </div>
 
-    <div className={`${layout.sectionImg} flex-col`}>
+    <div className={`${layout.sectionImg} flex-col text-start sm:text-justify`}>
       {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}
