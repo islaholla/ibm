@@ -26,12 +26,12 @@ const Footer = () => (
             <ul className="list-none mt-4">
               {footerlink.links.map((link, index) => (
                 <li
-                  key={link.name}
+                  key={link.id}
                   className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >
-                 <a href= {link.link}> {link.name}</a>
+                 <a target= {link.target} href= {link.link}> {link.name}</a>
                 </li>
               ))}
             </ul>
@@ -47,7 +47,8 @@ const Footer = () => (
 
       <div className="flex flex-row md:mt-0 mt-6">
         {socialMedia.map((social, index) => (
-          <img
+          <div className="wrap-image">
+            <img
             key={social.id}
             src={social.icon}
             alt={social.id}
@@ -56,6 +57,7 @@ const Footer = () => (
             }`}
             onClick={() => window.open(social.link)}
           />
+          </div>
         ))}
       </div>
     </div>
