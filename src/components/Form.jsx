@@ -92,7 +92,7 @@ const Form = () => {
                 <div className="mb-4">
                     <div className="">
                         < label className="text-white  text-[12px] leading-[15px]" htmlFor="privasi"><p className="text-justify">*Wajib diisi </p></label>
-                        < label className="ml-5 text-white  text-[12px] leading-[15px]" htmlFor="privasi"><p className="text-justify">Dengan klik submit, saya mengonfirmasi bahwa saya menginginkan informasi dan penawaran tambahan terkait produk dan layanan Mastersystem. Saya juga menyatakan bahwa saya telah membaca dan menyetujui <a className="text-blue-300" href="https://www.mastersystem.co.id/privacy-policy">kebijakan privasi Mastersystem</a></p></label>
+                        < label className="ml-5 text-white  text-[12px] leading-[15px]" htmlFor="privasi"><p className="text-justify">Dengan klik submit, saya mengonfirmasi bahwa saya menginginkan informasi dan penawaran tambahan terkait produk dan layanan Mastersystem. Saya juga menyatakan bahwa saya telah membaca dan menyetujui <a className="text-blue-300" target="_blank" href="https://www.mastersystem.co.id/privacy-policy">kebijakan privasi Mastersystem</a></p></label>
                     </div>
                 </div>
                 <button className="py-2 px-6 font-poppins font-medium text-[18px] text-primary rounded-[10px]  bg-blue-gradient outline-none" type="submit">
