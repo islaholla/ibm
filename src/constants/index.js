@@ -25,14 +25,14 @@ export const features = [
     icon: star,
     title: "IBM Power",
     content:
-      "IBM Power mampu menangani beban komputasi dari yang paling kompleks sampai dengan yang mudah. Solusi ini juga dilengkapi dengan arsitektur yang fleksibel, sehingga perusahaan dapat dengan mudah menyesuaikan sistem sesuai dengan kebutuhan workload mereka, sehingga mampu mengatasi pertumbuhan dan perubahan bisnis yang cepat.",
+      "Ditenagai oleh prosesor POWER yang canggih, IBM Power mampu menangani beban komputasi dari yang paling kompleks sampai dengan yang mudah. Dapat menghandle aplikasi dengan Operating System OS/400, AIX, Linux, dan Private Cloud. Solusi ini juga dilengkapi dengan arsitektur yang fleksibel, sehingga perusahaan dapat dengan mudah menyesuaikan sistem sesuai dengan kebutuhan workload mereka, sehingga mampu mengatasi pertumbuhan dan perubahan bisnis yang cepat.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "LinuxONE ",
     content:
-      "platform mainframe modern yang dibangun untuk mendukung mission critical workloads dengan skalabilitas dan tingkat keamanan yang tinggi. Dengan adopsi keduanya, perusahaan dapat memastikan operasi berjalan mulus dan berkinerja tinggi untuk aplikasi dan data mereka yang paling penting.      ",
+      "LinuxONE merupakan platform mainframe modern yang dibangun untuk mendukung mission critical workloads dengan reliabilitas, skalabilitas dan tingkat keamanan yang tinggi. Juga bisa menjadi konsolidasi workload critical workload seperti Oracle dengan TCO lebih baik. Dengan adopsi keduanya, perusahaan dapat memastikan operasi berjalan mulus dan berkinerja tinggi untuk aplikasi dan data mereka yang paling penting.      ",
   },
 ];
 
