@@ -32,7 +32,7 @@ export const features = [
     icon: shield,
     title: "LinuxONE ",
     content:
-      "LinuxONE merupakan platform mainframe modern yang dibangun untuk mendukung mission critical workloads dengan reliabilitas, skalabilitas dan tingkat keamanan yang tinggi. Sangat cocok untuk critical workload seperti Core Banking, Fraud Detection System dll. Juga bisa menjadi konsolidasi workload spt oracle database, dengan TCO lebih baik.",
+      "LinuxONE merupakan platform mainframe modern yang dibangun untuk mendukung mission critical workloads dengan reliabilitas, skalabilitas dan tingkat keamanan yang tinggi. Sangat cocok untuk critical workload seperti Core Banking, Fraud Detection System dll. Juga bisa menjadi konsolidasi workload seperti oracle database, dengan TCO lebih baik.",
   },
 ];
 
