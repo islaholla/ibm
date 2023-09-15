@@ -152,4 +152,28 @@
     #5ce1e6 51.94%,
     #33bbcf 90.29%
   );
+ 
+}
+.youtube-wrap{
+  height: 70vh;
+  width: 80%;
+ margin:0 auto;
+ margin-top: 2rem;
+}
+.youtube-wrap iframe{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 1200px) {
+  .youtube-wrap{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .youtube-wrap{
+    height: 200px;
+  }
 }

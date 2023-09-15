@@ -1,5 +1,6 @@
 import styles from "./style";
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, About, Form } from "./components";
+import Youtube from "./components/Youtube";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -23,6 +24,7 @@ const App = () => (
         {/* <Clients /> */}
         <CardDeal />
         <CTA />
+        <Youtube/>
         <Form />
         <Footer />
       </div>
