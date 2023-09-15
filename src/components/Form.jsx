@@ -1,12 +1,21 @@
 import { kontak } from "../assets";
 import styles, { layout } from "../style";
 import emailjs from '@emailjs/browser';
-import  { useRef } from 'react';
+import  { useRef, useState } from 'react';
+import fileDownload from 'js-file-download'
 
 const Form = () => {
     const form = useRef();
+    const [agreement, setAgreement] = useState(false);
+    const handleChack = (event) => {
+        setAgreement(event.target.checked);
+      }
     const sendEmail = (e) => {
       e.preventDefault();
+    //   if (agreement) {
+    //     fileDownload('http://localhost:5173/public/ibm.pdf', 'ibm.pdf')
+    //     console.log("okay");
+    //   }
       emailjs.sendForm('service_l273w57', 'template_ed2toyw', form.current, 'TGboJ_c8r3cxdla0j')
         .then((result) => {
             alert('Terimakasih Pesan Anda terkirim')
@@ -85,6 +94,10 @@ const Form = () => {
                     <div className="ml-5">
                         <input type="checkbox" id="demo" name="demo" value="Lihat Demo"/>
                         < label className="ml-5 text-white" htmlFor="demo" >Lihat demo</label>
+                    </div>
+                    <div className="ml-5">
+                       <input type="checkbox" id="pdf" name="demo" value="pdf" onChange={handleChack}/>
+                        < label className="ml-5 text-white" htmlFor="demo" >Download E-Book</label>
                     </div>
                    </div>
                 </div>
