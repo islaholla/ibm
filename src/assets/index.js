@@ -1,5 +1,6 @@
 import airbnb from "./ibm-web.png";
 import master from "./logo-master.png";
+import masteribm from "./master-ibm.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
 import card from "./card.png";
@@ -28,6 +29,7 @@ import kontak from "./kontak.png";
 
 export {
   kontak,
+  masteribm,
   airbnb,
   bill,
   binance,
