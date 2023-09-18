@@ -7,15 +7,16 @@ import fileDownload from 'js-file-download'
 const Form = () => {
     const form = useRef();
     const [agreement, setAgreement] = useState(false);
+    const [chacked, setChacked] = useState();
     const handleChack = (event) => {
         setAgreement(event.target.checked);
       }
     const sendEmail = (e) => {
       e.preventDefault();
-    //   if (agreement) {
-    //     fileDownload('http://localhost:5173/public/ibm.pdf', 'ibm.pdf')
-    //     console.log("okay");
-    //   }
+      if (agreement) {
+        fileDownload('https://ibm.mastersystem.co.id/public/ibm.pdf', 'ibm.pdf')
+        fileDownload('https://ibm.mastersystem.co.id/public/ibm2.pdf', 'ibm-power.pdf')
+      }
       emailjs.sendForm('service_l273w57', 'template_ed2toyw', form.current, 'TGboJ_c8r3cxdla0j')
         .then((result) => {
             alert('Terimakasih Pesan Anda terkirim')
@@ -27,8 +28,6 @@ const Form = () => {
   
     return (
         <section className={layout.section} id="kontak">
- 
-        
         <div className={layout.sectionImg}>
           <img src={kontak} alt="billing" className="w-[80%] " />
         </div>
@@ -96,8 +95,8 @@ const Form = () => {
                         < label className="ml-5 text-white" htmlFor="demo" >Lihat demo</label>
                     </div>
                     <div className="ml-5">
-                       <input type="checkbox" id="pdf" name="demo" value="pdf" onChange={handleChack}/>
-                        < label className="ml-5 text-white" htmlFor="demo" >Download E-Book</label>
+                       <input type="checkbox" id="pdf" name="pdf" value="pdf" onChange={handleChack} checked={chacked} />
+                        < label className="ml-5 text-white" htmlFor="pdf" >Download E-Book</label>
                     </div>
                    </div>
                 </div>
