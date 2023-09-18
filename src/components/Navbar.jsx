@@ -10,8 +10,8 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={master} alt="hoobank" className="md:w-[170px] w-[100px]"  /> 
-      <img src={logo} alt="hoobank" className=" ml-3 md:w-[100px] w-[90px]"  />
+      <a target="_blank" href="https://www.mastersystem.co.id/"><img src={master} alt="hoobank" className="md:w-[170px] w-[100px]"  /> </a>
+      <a target="_blank" href="https://www.ibm.com/id-id"> <img src={logo} alt="hoobank" className=" ml-3 md:w-[100px] w-[90px]"  /></a>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -26,7 +26,6 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}

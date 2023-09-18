@@ -7,7 +7,7 @@ export const navLinks = [
   },
   {
     id: "about",
-    title: "Intro",
+    title: "Overview",
   },
   {
     id: "Produk",
@@ -24,15 +24,17 @@ export const features = [
     id: "feature-1",
     icon: star,
     title: "IBM Power",
+    link:"https://www.ibm.com/id-id/power",
     content:
-      "Ditenagai oleh prosesor POWER yang canggih, IBM Power mampu menangani beban komputasi dari yang paling kompleks sampai dengan yang mudah. Dapat menghandle aplikasi modern spt Digital ( Core Banking ), SAP Hana, Database DB2, Oracle dll. Dengan berbagai variasi Operating System OS/400, AIX, Linux, dan Private Cloud dengan embedded security.",
+      "Ditenagai oleh prosesor POWER yang canggih, IBM Power mampu menangani beban komputasi dari yang paling kompleks sampai dengan yang mudah. Dapat menghandle aplikasi modern seperti Digital (Core Banking), SAP Hana, Database DB2, Oracle dll. Dengan berbagai variasi Operating System OS/400, AIX, Linux, dan Private Cloud dengan embedded security.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "IBM LinuxONE ",
+    link :"https://www.ibm.com/id-id/linuxone",
     content:
-      "IBM LinuxONE merupakan platform mainframe modern yang dibangun untuk mendukung mission critical workloads dengan reliabilitas, skalabilitas dan tingkat keamanan yang tinggi. Sangat cocok untuk critical workload seperti Core Banking, Fraud Detection System dll. Juga bisa menjadi konsolidasi workload seperti oracle database, dengan TCO lebih baik.",
+      "IBM LinuxONE merupakan platform mainframe modern yang dibangun untuk mendukung mission critical workloads dengan reliabilitas, skalabilitas dan tingkat keamanan yang tinggi. Sangat cocok untuk critical workload seperti Core Banking, Fraud Detection System dan sebagainya. Selain itu, LinuxOne juga bisa menjadi konsolidasi workload seperti oracle database, dengan TCO lebih baik.",
   },
 ];
 

@@ -14,8 +14,8 @@ const Form = () => {
     const sendEmail = (e) => {
       e.preventDefault();
       if (agreement) {
-        fileDownload('https://ibm.mastersystem.co.id/public/ibm.pdf', 'ibm.pdf')
-        fileDownload('https://ibm.mastersystem.co.id/public/ibm2.pdf', 'ibm-power.pdf')
+        fileDownload('https://ibm.mastersystem.co.id/public/ibm.pdf', 'IBM LinuxOne.pdf')
+        fileDownload('https://ibm.mastersystem.co.id/public/ibm2.pdf', 'IBM Power.pdf')
       }
       emailjs.sendForm('service_l273w57', 'template_ed2toyw', form.current, 'TGboJ_c8r3cxdla0j')
         .then((result) => {
@@ -33,7 +33,7 @@ const Form = () => {
         </div>
         <div className={layout.sectionInfo}>
           <h2 className={styles.heading2}>
-            Konsultasi<br className="sm:block hidden" /> 
+            Konsultasi Sekarang<br className="sm:block hidden" /> 
           </h2>
           <p className={`${styles.paragraph} max-w-[660px] mt-5`}>
           Jangan ragu untuk berdiskusi dengan pakar kami untuk mengoptimalkan critical workload bisnis Anda.
@@ -41,49 +41,49 @@ const Form = () => {
           <div className="w-full max-w-lg">
             <form className=" shadow-md rounded px-8 pt-6 pb-8 mb-4 mt-5" ref={form} onSubmit={sendEmail}>
                 <div className="mb-4">
-                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="nama">
-                        Nama*
+                    <label className="block text-white text-sm  mb-2" htmlFor="nama">
+                        Nama<span className="text-red-700">*</span>
                     </label>
                     <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nama" type="text" placeholder="Nama" name="name" required/>
                 </div>
                <div className="flex justify-between">
                <div className="mb-4">
-                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="jabatan">
-                        Jabatan*
+                    <label className="block text-white text-sm  mb-2" htmlFor="jabatan">
+                        Jabatan<span className="text-red-700">*</span>
                     </label>
                     <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="jabatan" type="text" placeholder="Jabatan" name="jabatan" required/>
                 </div>
                 <div className="mb-4 ml-5 md:ml-0">
-                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="divisi">
-                        Divisi*
+                    <label className="block text-white text-sm  mb-2" htmlFor="divisi">
+                        Divisi<span className="text-red-700">*</span>
                     </label>
                     <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="divisi" type="text" placeholder="divisi" name="divisi" required/>
                 </div>
                </div>
              <div className="flex justify-between">
              <div className="mb-4">
-                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="company">
-                        Company*
+                    <label className="block text-white text-sm  mb-2" htmlFor="company">
+                        Company<span className="text-red-700">*</span>
                     </label>
                     <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="company" type="text" placeholder="company" name="company" required/>
                 </div>
                 <div className="mb-4 ml-5 md:ml-0">
-                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="telp">
-                        No.Telepon*
+                    <label className="block text-white text-sm mb-2" htmlFor="telp">
+                        No.Telepon<span className="text-red-700">*</span>
                     </label>
                     <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="telp" type="text" placeholder="telp" name="phone" required/>
                 </div>
              </div>
             
                 <div className="mb-4">
-                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-                        Email*
+                    <label className="block text-white text-sm mb-2" htmlFor="email">
+                        Email<span className="text-red-700">*</span>
                     </label>
                     <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="email" name="email" required/>
                 </div>
                 <div className="mb-4">
-                    <label className="block text-gray-700 text-sm font-bold mb-2" >
-                        Kebutuhan*
+                    <label className="block text-white text-sm  mb-2" >
+                        Kebutuhan<span className="text-red-700">*</span>
                     </label>
                    <div className="flex">
                    <div>
@@ -103,7 +103,7 @@ const Form = () => {
                 <div>
                 <div className="mb-4">
                     <div className="">
-                        < label className="text-white  text-[12px] leading-[15px]" htmlFor="privasi"><p className="text-justify">*Wajib diisi </p></label>
+                        < label className="text-white  text-[12px] leading-[15px]" htmlFor="privasi"><p className="text-justify"><span className="text-red-700">*</span>Wajib diisi </p></label>
                         < label className="ml-5 text-white  text-[12px] leading-[15px]" htmlFor="privasi"><p className="text-justify">Dengan klik submit, saya mengonfirmasi bahwa saya menginginkan informasi dan penawaran tambahan terkait produk dan layanan Mastersystem. Saya juga menyatakan bahwa saya telah membaca dan menyetujui <a className="text-blue-300" target="_blank" href="https://www.mastersystem.co.id/privacy-policy">kebijakan privasi Mastersystem</a></p></label>
                     </div>
                 </div>
