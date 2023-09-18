@@ -15,7 +15,7 @@ export const navLinks = [
   },
   {
     id: "kontak",
-    title: "kontak",
+    title: "Kontak",
   },
 ];
 
@@ -30,9 +30,9 @@ export const features = [
   {
     id: "feature-2",
     icon: shield,
-    title: "LinuxONE ",
+    title: "IBM LinuxONE ",
     content:
-      "LinuxONE merupakan platform mainframe modern yang dibangun untuk mendukung mission critical workloads dengan reliabilitas, skalabilitas dan tingkat keamanan yang tinggi. Sangat cocok untuk critical workload seperti Core Banking, Fraud Detection System dll. Juga bisa menjadi konsolidasi workload seperti oracle database, dengan TCO lebih baik.",
+      "IBM LinuxONE merupakan platform mainframe modern yang dibangun untuk mendukung mission critical workloads dengan reliabilitas, skalabilitas dan tingkat keamanan yang tinggi. Sangat cocok untuk critical workload seperti Core Banking, Fraud Detection System dll. Juga bisa menjadi konsolidasi workload seperti oracle database, dengan TCO lebih baik.",
   },
 ];
 

@@ -29,7 +29,7 @@ const Business = () =>  (
       </p>
      <div className="flex">
         <a href="https://www.ibm.com/id-id/linuxone" target="_blank">
-          <Button styles={`mt-10 outline outline-cyan-300 btn-product `}isi={`LinuxONE`}/>
+          <Button styles={`mt-10 outline outline-cyan-300 btn-product `}isi={`IBM LinuxONE`}/>
         </a>
         <a href="https://www.ibm.com/id-id/power" className="ml-5" target="_blank">
           <Button styles={`mt-10 outline outline-cyan-300  btn-product `} isi={`IBM Power`}/>
