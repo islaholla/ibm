@@ -8,14 +8,30 @@ const Form = () => {
     const form = useRef();
     const [agreement, setAgreement] = useState(false);
     const [chacked, setChacked] = useState();
+    const url = "https://ibm.mastersystem.co.id/public/IBM LinuxOne.pdf";
+    const urlPower = "https://ibm.mastersystem.co.id/public/IBM Power.pdf";
+
     const handleChack = (event) => {
         setAgreement(event.target.checked);
       }
     const sendEmail = (e) => {
       e.preventDefault();
       if (agreement) {
-        fileDownload('https://ibm.mastersystem.co.id/public/ibm.pdf', 'IBM LinuxOne.pdf')
-        fileDownload('https://ibm.mastersystem.co.id/public/ibm2.pdf', 'IBM Power.pdf')
+        const fileName = url.split("/").pop();
+        const aTag = document.createElement("a");
+        aTag.href=url;
+        aTag.setAttribute("download",fileName)
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+ 
+        const fileNamePower = urlPower.split("/").pop();
+        const aTagPower = document.createElement("a");
+        aTagPower.href=urlPower;
+        aTagPower.setAttribute("download",fileNamePower)
+        document.body.appendChild(aTagPower);
+        aTagPower.click();
+        aTagPower.remove();
       }
       emailjs.sendForm('service_l273w57', 'template_ed2toyw', form.current, 'TGboJ_c8r3cxdla0j')
         .then((result) => {
