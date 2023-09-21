@@ -8,8 +8,8 @@ const Form = () => {
     const form = useRef();
     const [agreement, setAgreement] = useState(false);
     const [chacked, setChacked] = useState();
-    const url = "https://ibm.mastersystem.co.id/public/IBM LinuxOne.pdf";
-    const urlPower = "https://ibm.mastersystem.co.id/public/IBM Power.pdf";
+    const url = "https://ibm.mastersystem.co.id/IBM LinuxOne.pdf";
+    const urlPower = "https://ibm.mastersystem.co.id/IBM Power.pdf";
 
     const handleChack = (event) => {
         setAgreement(event.target.checked);
