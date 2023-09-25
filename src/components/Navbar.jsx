@@ -10,8 +10,8 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <a target="_blank" href="https://www.mastersystem.co.id/"><img src={master} alt="hoobank" className="md:w-[170px] w-[100px]"  /> </a>
-      <a target="_blank" href="https://www.ibm.com/id-id"> <img src={logo} alt="hoobank" className=" ml-3 md:w-[100px] w-[90px]"  /></a>
+     <a target="_blank" href="https://www.mastersystem.co.id/"><img src={master} alt="hoobank" className="md:w-[170px] w-[120px]"  /> </a>
+      <a target="_blank" href="https://www.ibm.com/id-id"> <img src={logo} alt="hoobank" className=" ml-3 md:w-[100px] w-[70px]"  /></a>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
