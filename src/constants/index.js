@@ -22,6 +22,7 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
+    id_btn: 8002,
     icon: star,
     title: "IBM Power",
     link:"https://www.ibm.com/id-id/power",
@@ -30,6 +31,7 @@ export const features = [
   },
   {
     id: "feature-2",
+    id_btn: 8003,
     icon: shield,
     title: "IBM LinuxONE ",
     link :"https://www.ibm.com/id-id/linuxone",

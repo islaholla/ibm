@@ -2,7 +2,7 @@ import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
-const FeatureCard = ({ icon, title, content, index, link }) => (
+const FeatureCard = ({ icon, title, content, index, link,  id_btn }) => (
   <div className={`flex flex-row p-6 rounded-[20px] flex-col	md:flex-row  ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue md:mb-0 mb-5`}>
       <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain " />
@@ -15,7 +15,7 @@ const FeatureCard = ({ icon, title, content, index, link }) => (
         {content}
       </p>
       <a href={link} target="_blank">
-          <Button styles={`mt-5 outline outline-cyan-300 btn-product `}isi={`Pelajari Lebih Lanjut`}/>
+          <Button styles={`mt-5 outline outline-cyan-300 btn-product `}isi={`Pelajari Lebih Lanjut`} id_btn={ id_btn}/>
       </a>
     </div>
   </div>
